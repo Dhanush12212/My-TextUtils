@@ -57,9 +57,9 @@ const removeSpace = () => {
 
   return (
     <>
-      <form className={`p-10 text-center h-full bg-${props.bgmode} text-${props.mode==='dark'? 'light':'dark'} h-screen`}>
+      <form className={`p-10 text-center h-full text-${props.mode==='dark'? 'light':'dark'} h-screen`}>
         <h1 className="text-4xl my-5 font-bold">{props.heading}</h1>
-        <textarea className="form-control border-blue-400 text-xl  my-4 text-centr p-3" id="copy-text" rows="8" onChange={handleOnChange} value={text} placeholder="Enter text here"></textarea> 
+        <textarea className={`form-control border-blue-400 text-xl my-4 text-centr p-3 bg-${props.mode==="dark"? "dark" : "white"} text-${props.mode === "dark" ? "white" : "dark"}`} id="copy-text" rows="8" onChange={handleOnChange} value={text} placeholder="Enter text here"></textarea> 
         <button type="button" className="btn btn-primary my-3 mx-2" onClick={convertUpText}> Convert to UpperCase </button>
         <button type="button" className="btn btn-primary my-3 mx-2" onClick={convertLoText}>Convert to LowerCase</button>
         <button type="button" className="btn btn-primary my-3 mx-2" onClick={removeSpace}>Remove Space</button>

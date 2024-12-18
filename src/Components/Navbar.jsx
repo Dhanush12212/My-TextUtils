@@ -50,7 +50,7 @@ export default function Navbar(props) {
                 onClick={toggleDropdown}
                 style={{ outline: 'none', boxShadow: 'none' }} // Remove outline and shadow
               >
-                Contact Me
+                About Me
               </button>
               {isDropdownOpen && (
                 <ul className="dropdown-menu d-flex justify-content-around align-items-center p-1 mt-2 border-0 shadow-lg">
