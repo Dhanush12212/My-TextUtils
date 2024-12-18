@@ -1,8 +1,26 @@
-# React + Vite
+<h1>My Text Utils</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Tech Stack</h2>
+  <h5>React.js</h5>
+  <h5>Tailwind CSS</h5>
 
-Currently, two official plugins are available:
+<h2>How to Use</h2>
+  <p>Enter your text in the input area.</p>
+  <p>Choose any of the available operations:</p>
+  <p>Convert to uppercase or Lowercase.:</p>
+  <p>Remove extra spaces:</p>
+  <p>Copy the text to your clipboard</p>
+  <p>Clear the text field to input new content.</p>
+  <p>View the live changes instantly!</p> 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Installation and Setup</h2>
+  <h4>Follow these steps to run the project locally:</h4>
+  <h5>1. Clone the repository:</h5>
+    git clone https://github.com/Dhanush12212/My-TextUtils.git
+    Navigate to the project directory
+  <h5>2. Install dependencies:</h5>
+    npm install
+  <h5>3. Start the development server:</h5>
+    npm run dev
+
+<h3>Open the application in your browser at http://localhost:3000.</h3>
