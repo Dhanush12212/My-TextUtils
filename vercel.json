@@ -1,6 +1,21 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/index.html" }
+      {
+        "source": "/((?!assets|favicon\\.ico|robots\\.txt|.*\\.js|.*\\.css|.*\\.png|.*\\.svg|.*\\.webp|.*\\.json).*)",
+        "destination": "/index.html"
+      }
+    ],
+    "builds": [
+      {
+        "src": "vite.config.js",
+        "use": "@vercel/static-build"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
     ]
   }
   
