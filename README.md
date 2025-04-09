@@ -1,5 +1,7 @@
 <h1>My Text Utils</h1>
 
+Text Utils is a versatile text manipulation application designed to make text transformation quick and easy. Whether you need to convert text to uppercase, lowercase, capitalize words, remove extra spaces, or perform other text formatting tasks
+
 <h2>Tech Stack</h2>
   <h5>React.js</h5>
   <h5>Tailwind CSS</h5>
