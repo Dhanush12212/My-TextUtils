@@ -73,11 +73,11 @@ export default function Navbar(props) {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/mr__perfect_41/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Dhanush12212" target="_blank" rel="noopener noreferrer">
                       <img
-                        src={assets.Instagram}
-                        alt="Instagram"
-                        className="w-12 h-12 transform transition-transform duration-200 hover:scale-110 hover:shadow-lg"
+                        src={assets.GitHub}
+                        alt="GitHub"
+                        className="w-10 h-8 transform transition-transform duration-200 hover:scale-110 hover:shadow-lg"
                       />
                     </a>
                   </li>
