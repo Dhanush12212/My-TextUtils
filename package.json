@@ -1,6 +1,4 @@
-{
-  "homepage": "https://dhanush12212.github.io/My-TextUtils/",
-  "name": "My TextUtils",
+{ 
   "private": true,
   "version": "0.0.0",
   "type": "module",
